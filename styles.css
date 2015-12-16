@@ -1,0 +1,56 @@
+body {
+  background-image: url('assets/grey-texture.png');
+}
+
+.paper {
+  height: 500px;
+  width: 500px;
+  border-radius: 5px;
+  position: relative;
+  background-color: white;
+  margin: 200px auto;
+  transition: 0.6s ease-in-out;
+  opacity: 0.6;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
+              0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.paper:hover {
+  transition: 0.6s ease-in-out;
+  opacity: 1;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.48),
+              0 1px 4px rgba(0, 0, 0, 0.60);
+}
+
+.myinfo {
+  position: relative;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  left: auto;
+  right: auto;
+}
+
+.name {
+  padding-top: 160px;
+  cursor: default;
+  font-size: 40px;
+  font-family: Quicksand;
+  font-weight: 400;
+}
+
+.links {
+  padding-top: 150px;
+}
+
+#github {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+
+#linkedin {
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}

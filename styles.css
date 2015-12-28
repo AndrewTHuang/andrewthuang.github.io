@@ -9,18 +9,18 @@ body {
   position: relative;
   background-color: white;
   margin: 200px auto;
-  -webkit-transform: 0.3s ease-in-out;
-  -ms-transform: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transform: 0.5s ease-in-out;
+  -ms-transform: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   opacity: 0.6;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12),
               0 1px 4px rgba(0, 0, 0, 0.24);
 }
 
 .paper:hover {
-  -webkit-transform: 0.3s ease-in-out;
-  -ms-transform: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transform: 0.5s ease-in-out;
+  -ms-transform: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   opacity: 1;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.48),
               0 1px 4px rgba(0, 0, 0, 0.60);
@@ -37,14 +37,23 @@ body {
 
 .name {
   padding-top: 160px;
+  padding-right: 5px;
   cursor: default;
   font-size: 40px;
   font-family: Quicksand;
   font-weight: 400;
 }
 
-.links {
-  padding-top: 150px;
+.icons {
+  padding-top: 120px;
+  padding-left: 5px;
+}
+
+#email {
+  padding: 10px;
+  margin-bottom: -3px;
+  position: relative;
+  z-index: 1;
 }
 
 #github {
@@ -99,5 +108,5 @@ body {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
-  opacity: 1;
+  opacity: 0.5;
 }
